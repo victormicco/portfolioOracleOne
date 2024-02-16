@@ -32,6 +32,7 @@ main {
   align-items: center;
 }
 #fadeh1 {
+  background: linear-gradient(0.25turn, #1e1e1e, #ebf8e16c, #ebf8e136);
   color: #22d4fd;
   font-size: 36px;
   font-weight: 400;
@@ -118,4 +119,11 @@ footer {
 #myName {
   cursor: pointer;
   font-weight: 400;
+  color: #ffffff;
+}
+#myName:hover {
+  transition: 300ms;
+  cursor: pointer;
+  font-weight: 400;
+  color: #3e21dd;
 }
