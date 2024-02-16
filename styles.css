@@ -1,0 +1,121 @@
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #f6f6f6;
+  font-family: "Krona One";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 30px;
+}
+main {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+}
+#fadeh1 {
+  color: #22d4fd;
+  font-size: 36px;
+  font-weight: 400;
+}
+#contenth4 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 23px;
+}
+#instagram {
+  width: 280px;
+  height: 79px;
+  border-radius: 16px;
+  color: #1e1e1e;
+  background-color: #22d4fd;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#instagram:hover {
+  transition: 200ms;
+  background-color: #1e1e1e;
+  color: #22d4fd;
+  border-color: #22d4fd;
+}
+#github {
+  width: 280px;
+  height: 79px;
+  border-radius: 16px;
+  color: #1e1e1e;
+  background-color: #22d4fd;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#github:hover {
+  transition: 200ms;
+  background-color: #1e1e1e;
+  color: #22d4fd;
+  border-color: #22d4fd;
+}
+
+#codingImage {
+  width: 100%;
+  height: 532px;
+  border-radius: 16px;
+  object-fit: cover;
+  /* box-shadow: 3px 0px 0px 5px #22d4fd; */
+
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.socialButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.borderImage {
+  margin-left: 100px;
+  width: 468px;
+  height: 532px;
+  border: 3px solid #22d4fd;
+  border-radius: 16px;
+  position: relative;
+}
+.borderContainer {
+  width: 50%;
+}
+footer {
+  font-family: "Montserrat";
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #22d4fd;
+  text-align: center;
+  padding: 5px;
+  width: 100vw;
+}
+#myName {
+  cursor: pointer;
+  font-weight: 400;
+}
